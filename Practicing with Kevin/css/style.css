@@ -1,0 +1,292 @@
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.3125rem;
+  font-family:'Montserrat', sans-serif;
+  color: #2E323F;
+}
+
+img {
+  width: 100%;
+}
+
+.nav{  
+  
+    background: #2E323F;
+    padding: .4em;
+  }
+
+
+.nav-list {
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+  
+}
+
+.nav-item {
+  margin: 0.35em;    /*ovde moras da stavis margin top jer na nav link ne moze jer su linkovi su po difoltu inlini elements*/
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family:'Oswald', sans-serif;
+  text-transform: uppercase;
+
+}
+
+.nav-link-button {
+
+  background:#A59678;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 100px;
+  font-weight: 900;
+  padding: 0px 15px;
+
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+
+}
+
+.section-one {
+ background:#3B4050;
+ padding: 1em 0; 
+
+}
+
+.section-one-title {
+  color: white;
+  font-family:'Oswald', sans-serif ;
+  font-size: 3rem;
+  line-height: 1;
+
+}
+
+
+
+.section-one-text {
+  color: white;
+  font-size: 1.3rem;
+
+}
+
+.btn {
+  background:#A59678;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: .5em;
+  font-size: 1rem;
+  font-weight: 900;
+  font-family:'Oswald', sans-serif ;
+
+}
+
+.button {
+  margin-bottom:1.2em;
+}
+
+.section-two {
+  background: rgb(245, 243, 239);
+  padding: 20px 0;
+}
+
+ .section-two h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family:'Oswald', sans-serif;
+  color:#A59678;
+
+ }
+ .section-two p {
+   font-size: 1rem;
+ }
+
+ .section-three-title {
+   font-size: 2rem;
+   color:#A59678 ;
+   font-family:'Oswald', sans-serif;
+   line-height: 1;
+
+ }
+
+ .col-dark {
+
+   font-size: 1rem;
+   background: #3B4050;
+   color: white;
+   font-size: 1rem;
+   padding: .2em 1em;
+   text-align: center;
+   margin-top: 2em;
+ }
+
+ .col-dark h2 {
+   font-family: 'Oswald', sans-serif;
+ }
+
+
+
+ .last-section{
+   background:#3B4050 ;
+   padding-bottom: .5em;
+   text-align: center;
+ }
+ .footer-title {
+   font-size: 2rem;
+   font-family:'Oswald', sans-serif;
+   color: white;
+   padding-top: .5em;
+   line-height: 1;
+
+ }
+
+ h3 {
+
+  color:#A59678 ;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+
+
+ }
+
+ .footer-text p {
+
+  color: #6F737F;
+  font-size: 1rem;
+
+ }
+
+ .last-section p {
+   color: #6F737F;
+   font-size: 1rem;
+ }
+
+ @media  (min-width:700px) {
+  
+  .row {
+    display: flex;
+    gap: 20px;
+  }
+
+  .last-section .row {
+    gap: 100px;
+  }
+
+}
+
+@media  (min-width:1000px) {
+
+  .nav-list {
+    display: flex;
+    margin-left: 30em;
+    
+  }
+
+  .nav-item {
+   
+    margin-right: 2em;
+
+  }
+  .nav-link {
+    border: 2px solid kh  aki;
+
+  }
+
+/*SECTION ONE*/
+
+
+
+.section-one-text {
+  width: 40%;
+  margin: 8em 0 5em 6em;
+
+ 
+}
+.section-one-title {
+  width: 40%;
+  font-size: 80px;
+}
+
+.container {
+  display: flex;
+
+   
+}
+
+.btn {
+  padding: 8px 20px;
+  font-size: 24px;
+}
+
+/*SECTION TWO*/
+
+.col {
+  text-align: center;
+  width: 30%;
+  padding:2em 0;
+}
+
+.col.col {
+  margin-left: 2em;
+}
+
+
+
+/*SECTION Three*/
+
+.section-three {
+  padding: 4em 0;
+}
+
+.section-three-pic {
+  width: 70%;
+}
+.side-bar {
+ 
+  width: 30%;
+  margin-left: 3em;
+  margin-top: 7em;
+}
+
+
+/*SECTION FOUR*/
+
+.last-section {
+  padding: 2em 0;
+}
+
+.footer-text {
+  width: 30%;
+  text-align: left;
+  
+}
+
+.three-col {
+  display: flex;
+  gap: 100px;
+  padding-left: 7em;
+  
+}
+
+.footer-title {
+  font-size: 3rem;  
+}
+}
